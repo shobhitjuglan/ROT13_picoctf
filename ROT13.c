@@ -4,7 +4,7 @@
 int main(){
     //ROT13
     //Solving picoCTF problem with code
-    int length;char arr[100];
+    int length;char arr[1000];
     scanf("%s",arr);
     length=strlen(arr);
     for(int i=0;i<length;i++){
